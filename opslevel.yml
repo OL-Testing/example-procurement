@@ -3,15 +3,20 @@ version: 1
 service:
   name: Procurement Service
   lifecycle: alpha
-  tier: tier_1
+  tier: tier_2
   product: Procurement
   owner: inventory_team
   language: Ruby
   framework: Rails
-  description: Manages the inventory levels and procures for new inventory from vendors and blah
+  description: Manages the inventory levels and procures for new inventory from vendors.
   aliases:
   - foos
+  - ball
   tools:
+  - name: DataDog
+    category: runbooks
+    url: https://datadog.com/dashboards
+    environment: Prod
   - name: GitHub
     category: code
     url: https://github.com/OpsLevel/learn-rails

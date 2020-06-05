@@ -12,6 +12,7 @@ service:
   aliases:
   - foos
   - ballers
+  - chris
   tools:
   - name: DataDog
     category: runbooks

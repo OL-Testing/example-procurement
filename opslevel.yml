@@ -8,9 +8,9 @@ service:
   owner: inventory_team
   language: Ruby
   framework: Rails
-  description: Manages the inventory levels and procures for new inventory from vendors.
+  description: Manages the inventory levels.
   aliases:
-  - foosers
+  - foos
   tools:
   - name: DataDog
     category: runbooks

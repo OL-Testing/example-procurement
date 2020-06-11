@@ -10,8 +10,7 @@ service:
   framework: Rails
   description: Manages the inventory levels.
   aliases:
-  - foo
-  - ballers
+  - foos
   tools:
   - name: DataDog
     category: runbooks

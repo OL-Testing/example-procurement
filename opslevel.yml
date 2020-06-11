@@ -11,6 +11,7 @@ service:
   description: Manages the inventory levels.
   aliases:
   - foos
+  - ballers
   tools:
   - name: DataDog
     category: runbooks

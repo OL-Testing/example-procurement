@@ -1,7 +1,7 @@
 ---
 version: 1
 service:
-  name: Procurement Service
+  namess: Procurement Service
   lifecycle: alpha
   tier: tier_2
   product: Procurement

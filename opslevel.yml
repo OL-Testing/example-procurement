@@ -1,7 +1,7 @@
 ---
 version: 1
 service:
-  name: Procurement Service
+  na:me: Procurement Service
   lifecycle: alpha
   tier: tier_2
   product: Procurement
@@ -9,7 +9,7 @@ service:
   language: Ruby
   framework: Rails
   description: Manages the inventory levels.
-  aliases::
+  aliases:
   - foo
   - ballers
   tools:

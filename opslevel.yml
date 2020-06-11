@@ -9,7 +9,7 @@ service:
   language: Ruby
   framework: Rails
   description: Manages the inventory levels.
-  aliases:
+  aliases::
   - foo
   - ballers
   tools:
